@@ -1,0 +1,40 @@
+.createPost{
+  width:300px;
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  border-radius:15px;
+  border:1px solid cornflowerblue;
+      .margin{
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width:90%;
+            .writePost{
+              width:100%;
+              display:flex;
+              flex-direction: row;
+            }
+            .control{
+              width:100%;
+              flex-direction: row;
+              flex-wrap: wrap;
+              justify-content: space-between;
+              .add{
+                width:50%;
+                  display:flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+              }
+              .send{
+                width:50%;
+                display:flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+              }
+             }
+      }
+}

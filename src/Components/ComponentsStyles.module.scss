@@ -1,0 +1,38 @@
+
+
+
+  .blackBorder {
+    border: 1px solid black
+  }
+
+  .greenBorder {
+    border: 1px solid green
+  }
+
+  .redBorder {
+    border: 1px solid red;
+  }
+
+  .blueBorder {
+    border: 1px solid Blue;
+  }
+
+  .yellowBorder {
+    border:1px solid yellow;
+  }
+
+  .childText {
+    font-size: 14px;
+    color: darkslategrey;
+  }
+  .container {
+    padding:0 10px 0 10px;
+    width:100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-radius:15px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
